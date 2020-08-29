@@ -44,8 +44,10 @@ span,
 label,
 input,
 textarea {
+  font-size: 1.1rem;
   color: var(--secondaryText);
   font-family: "Roboto Mono", monospace;
+  font-weight: 300;
 }
 
 a {
