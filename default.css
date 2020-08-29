@@ -305,6 +305,28 @@ h6 {
   text-align: center;
 }
 
+.icon-block i {
+  display: inline;
+  font-size: 1.6rem;
+  color: var(--mainText);
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid var(--mainText);
+  line-height: 30px;
+  padding: 8px 10px;
+  margin: 0 5px;
+}
+
+#fat {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.icon-block i:hover {
+  background-color: var(--mainText);
+  color: var(--mainColor);
+}
+
 #social_img {
   width: 100%;
   border-radius: 5px;
