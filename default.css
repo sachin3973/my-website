@@ -324,12 +324,16 @@ h6 {
 }
 
 .post-preview {
-  background-color: #fff;
+  background-color: var(--secondaryColor);
   padding: 15px;
 }
 
+.post-preview p {
+  color: var(--mainText);
+}
+
 .post-title {
-  color: black;
+  color: var(--mainText);
   margin: 0;
 }
 
