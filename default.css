@@ -2,10 +2,11 @@
   --mainColor: #eaeaea;
   --secondaryColor: #fff;
 
-  --borderColor: #c1c1c1;
+  --borderColor: #164d56;
 
   --mainText: #000;
   --secondaryText: #4b5156;
+  --linkText: #2475b0;
 
   --themeDotBorder: #24292e;
 
@@ -22,7 +23,7 @@ body {
 }
 
 body * {
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 h1,
@@ -49,7 +50,7 @@ textarea {
 
 a {
   text-decoration: none;
-  color: #94e1ec;
+  color: var(--linkText);
 }
 
 ul {
@@ -102,6 +103,10 @@ h6 {
   text-align: center;
   align-content: center;
   min-height: 1 0em;
+}
+
+.greeting-wrapper h1 {
+  text-shadow: 2px 2px 1px var(--borderColor);
 }
 
 .intro-wrapper {
@@ -300,6 +305,11 @@ h6 {
 
 #social_img {
   width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--borderColor);
+  -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
 }
 
 .post-wrapper {
@@ -312,6 +322,7 @@ h6 {
 
 .post {
   border: 1px solid var(--borderColor);
+  border-radius: 3px;
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
@@ -374,6 +385,7 @@ h6 {
 }
 
 #submit-btn {
+  letter-spacing: 0.2rem;
   margin-top: 10px;
   width: 100%;
   padding-top: 10px;
@@ -381,6 +393,7 @@ h6 {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 1200px) {
