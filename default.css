@@ -36,8 +36,8 @@ h5,
 h6,
 strong {
   color: var(--mainText);
-  font-family: "Russo One", sans-serif;
-  font-weight: 500;
+  font-family: "Chelsea Market", cursive;
+  font-weight: 600;
 }
 
 p,
@@ -48,11 +48,12 @@ input,
 textarea {
   font-size: 1.1rem;
   color: var(--secondaryText);
-  font-family: "Roboto Mono", monospace;
-  font-weight: 300;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
 a {
+  font-weight: 600;
   text-decoration: none;
   color: var(--linkText);
 }
@@ -62,7 +63,8 @@ ul {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 72px;
+  font-family: "Freckle Face", cursive;
 }
 
 h2 {
