@@ -12,7 +12,7 @@
 
   --themeDotBorder: #24292e;
 
-  --previewBg: rgb(251, 249, 243, 0.8);
+  --previewBg: rgb(251, 249, 243, 0.6);
   --previewShadow: #f0ead6;
 
   --buttonColor: black;
@@ -25,7 +25,7 @@ body {
 }
 
 body * {
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 h1,
@@ -118,7 +118,8 @@ h6 {
 .intro-wrapper {
   background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
-  border-radius: 5px 5px 0 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   box-shadow: var(--mainShadow);
   display: grid;
   grid-template-columns: 1fr 1fr;
