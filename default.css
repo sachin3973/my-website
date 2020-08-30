@@ -1,8 +1,8 @@
 :root {
-  --mainColor: #eaeaea;
-  --secondaryColor: #fff;
+  --mainColor: #e4dede;
+  --secondaryColor: #f3f0f0;
 
-  --mainShadow: 3px 3px 3px #98998f, -3px -3px 3px #e9f1f1;
+  --mainShadow: 3px 3px 3px #98998f, -3px -3px 3px #ffffff;
 
   --borderColor: #164d56;
 
