@@ -2,6 +2,8 @@
   --mainColor: #46344e;
   --secondaryColor: #382a3f;
 
+  --mainShadow: 5px 5px 5px #5b4e6d, -3px -3px 3px #67547e;
+
   --borderColor: #926e9e;
 
   --mainText: #fff;

@@ -2,6 +2,8 @@
   --mainColor: #eaeaea;
   --secondaryColor: #fff;
 
+  --mainShadow: 5px 5px 5px #98998f, -3px -3px 3px #f7f7f5;
+
   --borderColor: #164d56;
 
   --mainText: #000;
@@ -115,7 +117,7 @@ h6 {
   background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
   border-radius: 5px 5px 0 0;
-  box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0, 75);
+  box-shadow: var(--mainShadow);
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: 3em 30em; */
@@ -182,6 +184,8 @@ h6 {
 }
 
 #profile_pic {
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
   display: block;
   margin: 0 auto;
   height: 200px;
@@ -218,7 +222,7 @@ h6 {
 }
 
 #green-mode {
-  background-color: #78866b;
+  background-color: #86e6a1;
 }
 
 #purple-mode {
@@ -240,6 +244,8 @@ h6 {
 }
 
 #preview-shadow {
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
   background-color: var(--previewShadow);
   width: 300px;
   height: 180px;
@@ -248,40 +254,13 @@ h6 {
 }
 
 #preview {
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
   width: 300px;
   border: 1.5px solid var(--borderColor);
   background-color: var(--previewBg);
   padding: 15px;
   position: relative;
-}
-
-.corner {
-  height: 7px;
-  width: 7px;
-  border-radius: 50%;
-  border: 1.5px solid var(--borderColor);
-  background-color: #fff;
-  position: absolute;
-}
-
-#corner-tl {
-  top: -5px;
-  left: -5px;
-}
-
-#corner-tr {
-  top: -5px;
-  right: -5px;
-}
-
-#corner-br {
-  bottom: -5px;
-  right: -5px;
-}
-
-#corner-bl {
-  bottom: -5px;
-  left: -5px;
 }
 
 .about-wrapper {
@@ -297,6 +276,8 @@ h6 {
   justify-content: space-evenly;
   background-color: var(--previewShadow);
   border: 1px solid var(--borderColor);
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .social-links {
@@ -308,10 +289,11 @@ h6 {
 .icon-block i {
   display: inline;
   font-size: 1.6rem;
+  font-weight: 600;
   color: var(--mainText);
   text-align: center;
-  border-radius: 10px;
-  border: 1px solid var(--mainText);
+  border-radius: 12px;
+  border: 2px solid var(--mainText);
   line-height: 30px;
   padding: 8px 10px;
   margin: 0 5px;
@@ -328,12 +310,12 @@ h6 {
 }
 
 #social_img {
+  padding: 12px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
   width: 100%;
-  border-radius: 5px;
   border: 1px solid var(--borderColor);
-  -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: var(--mainShadow);
 }
 
 .post-wrapper {
@@ -347,9 +329,7 @@ h6 {
 .post {
   border: 1px solid var(--borderColor);
   border-radius: 3px;
-  -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: var(--mainShadow);
 }
 
 .thumbnail {
