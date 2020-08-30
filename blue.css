@@ -1,19 +1,19 @@
 :root {
-  --mainColor: #6ca1ec;
-  --secondaryColor: #649ae0;
+  --mainColor: #90b8f0;
+  --secondaryColor: #c3dbfa;
 
-  --mainShadow: 3px 3px 3px #547daf, -3px -3px 3px #9ebbe0;
+  --mainShadow: 3px 3px 3px #5f90cc, -3px -3px 3px #c4d8f3;
 
-  --borderColor: #164d56;
+  --borderColor: #60a0dd;
 
-  --mainText: #fff;
-  --secondaryText: #eeeeee;
-  --linkText: #dace2f;
+  --mainText: #333331;
+  --secondaryText: #4b5156;
+  --linkText: #232869;
 
-  --themeDotBorder: #fff;
+  --themeDotBorder: #24292e;
 
-  --previewBg: rgba(53, 102, 155, 0.6);
-  --previewShadow: #367eb6;
+  --previewBg: rgb(251, 249, 243, 0.6);
+  --previewShadow: #6aade0;
 
-  --buttonColor: #dace2f;
+  --buttonColor: #232869;
 }

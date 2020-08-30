@@ -8,14 +8,14 @@
 
   --mainText: #000;
   --secondaryText: #4b5156;
-  --linkText: #2475b0;
+  --linkText: #836a18;
 
   --themeDotBorder: #24292e;
 
   --previewBg: rgb(251, 249, 243, 0.6);
   --previewShadow: #f0ead6;
 
-  --buttonColor: black;
+  --buttonColor: #977f31;
 }
 
 html,
@@ -221,7 +221,7 @@ h6 {
 }
 
 #blue-mode {
-  background-color: #192734;
+  background-color: #6ca1ec;
 }
 
 #green-mode {
