@@ -12,7 +12,7 @@
 
   --themeDotBorder: #24292e;
 
-  --previewBg: rgb(251, 249, 243, 0.6);
+  --previewBg: rgba(251, 249, 243, 0.6);
   --previewShadow: #f0ead6;
 
   --buttonColor: #977f31;
@@ -25,7 +25,7 @@ body {
 }
 
 body * {
-  transition: 0.4s;
+  transition-duration: 0.4s;
 }
 
 h1,
@@ -176,7 +176,6 @@ h6 {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0, 75);
   margin: 5px;
 }
 
@@ -329,6 +328,10 @@ h6 {
   padding-bottom: 50px;
 }
 
+.post-wrapper > div:hover {
+  transform: scale(1.03);
+}
+
 .post {
   border: 1px solid var(--borderColor);
   border-radius: 3px;
@@ -354,11 +357,6 @@ h6 {
 .post-title {
   color: var(--mainText);
   margin: 0;
-}
-
-.post-intro {
-  color: #4b5156;
-  font-size: 14px;
 }
 
 #contact-form {
@@ -425,6 +423,7 @@ h6 {
 }
 
 #bodymovin {
+  border: 1px solid var(--borderColor);
   width: 300px;
   height: 300px;
   display: block;
